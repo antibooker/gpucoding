@@ -38,3 +38,6 @@ Exit status: 0
 ```bash
 nvcc vector_add.cu -o vecadd
 ./vecadd
+
+## 项目小结
+通过本次入门实践，我熟悉了CUDA编程的基本流程，包括主机与设备内存管理、核函数调用和并行任务配置。同时也了解到在线GPU环境存在调度开销，大数据量下GPU并行计算的优势会更加明显。整体为后续学习AI Infra与芯片底层开发打下了基础。
